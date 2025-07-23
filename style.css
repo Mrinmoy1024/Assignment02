@@ -5,6 +5,7 @@
 }
 body {
     font-family: "Noto Serif";
+    background-color: #F5F8FF;
 }
 a {
     text-decoration: none;
@@ -42,4 +43,21 @@ ul {
     text-align: center;
     position: absolute;
     margin:0 5px;
+}
+/*banner*/
+.banner {
+    margin: 120px 150px 0;
+    padding-top: 162px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-caption h2 {
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-caption h5 {
+    font-size: 22px ;
+    font-family: "Inter";
+    font-weight: 400;
 }
